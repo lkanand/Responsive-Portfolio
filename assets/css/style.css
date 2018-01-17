@@ -240,16 +240,24 @@ footer{
 	border-top: 9px solid #4aaaa5;
 }
 
+@media (max-width: 1114px) {
+	#connect{
+		margin-left: 150px;
+	}
+
+	#main_content{
+		margin-bottom: 35px;
+	}
+}
+
 @media (max-width: 980px) {
 	#main_content{
 		width: 40%;
-		margin-right: 0;
+		margin-right: 10%;
 	}
 
 	#connect{
 		width: 25%;
-		float: right;
-		margin-right: 10%;
 	}
 
 	.profile-pic-box{
@@ -318,8 +326,10 @@ footer{
 	}
 
 	#connect{
-		margin-right: 4%;
+		float: left;
+		margin-left: 4%;
 		width: 92%;
+		margin-top: 0px;
 	}
 
 	.profile-pic-box{
